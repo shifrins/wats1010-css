@@ -1,6 +1,29 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
+h1, h2 {
     color: green;
+  font-family: Helvetica;
 }
+
+ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0.1em;
+}
+
+li {  
+  line-height: 135%
+}
+
+p {
+  font-family: Arial;
+}
+
+body {
+  background: url(images/hiking-the-sand-dunes.jpg) top center no-repeat, 
+    url(images/sand.jpg) repeat;
+  background-color: #777799;
+  color: #FFFFFF;
+}
+
